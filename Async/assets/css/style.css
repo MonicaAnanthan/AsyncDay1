@@ -1,0 +1,53 @@
+
+@keyframes color {
+	0%   { background: #FEB22D; }
+	20%  { background: #FEB22D; }
+	40%  { background: #9AD05A; }
+	60%  { background: #FE6406; }
+	80%  { background: #3278db; }
+	100% { background: #44A610; }
+}
+
+body {
+  background: #33CCCC; 
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
+p{
+  text-align: center;
+  font-family: 'Kavoon', sans-serif;
+  font-size: 2.5em;
+  color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.num-box{
+    background: #f9f9f9;
+    height: 125px;
+    border-radius: 65px;
+    width: 125px;
+    line-height: 3;
+    font-size: 2.5rem;
+    font-weight: 500;
+    border: dotted #3d3daf;
+    color: #3d3daf;
+    box-shadow: 0 0px 12px 0 rgba(0, 0, 0, 27%);
+}
+.title-box{
+    transition: .5s all;
+    font-size: 51px;
+    color: #3d3daf;
+    font-weight: 700;
+    padding-top: 21%;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/flag.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
